@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reorganized Clock and Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section: Analog and Digital Clocks -->
+      <div class="clock-section">
+        <!-- Analog Clock -->
+        <div class="analog-clock">
+          <div class="clock-face">
+            <!-- Numbers -->
+            <div class="clock-number" style="--n: 1">1</div>
+            <div class="clock-number" style="--n: 2">2</div>
+            <div class="clock-number" style="--n: 3">3</div>
+            <div class="clock-number" style="--n: 4">4</div>
+            <div class="clock-number" style="--n: 5">5</div>
+            <div class="clock-number" style="--n: 6">6</div>
+            <div class="clock-number" style="--n: 7">7</div>
+            <div class="clock-number" style="--n: 8">8</div>
+            <div class="clock-number" style="--n: 9">9</div>
+            <div class="clock-number" style="--n: 10">10</div>
+            <div class="clock-number" style="--n: 11">11</div>
+            <div class="clock-number" style="--n: 12">12</div>
+            <!-- Clock Hands -->
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+          </div>
+        </div>
+
+        <!-- Digital Clock -->
+        <div class="time-box">
+          <p id="time">12:00:00</p>
+        </div>
+      </div>
+
+      <!-- Right Section: Calendar -->
+      <div class="calendar-box">
+        <div class="calendar">
+          <div class="left">
+            <p id="date">16</p>
+            <p id="day">Monday</p>
+          </div>
+          <div class="right">
+            <p id="month">December</p>
+            <p id="year">2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
