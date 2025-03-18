@@ -63,6 +63,7 @@ The project leverages JavaScript for live updates and CSS for styling and animat
 
 ---
 ## 📸 Preview  
+<p>Site Link: <a href="https://touhidulislam1999.github.io/Real-Time-Clock-With-Calendar-using-Javascript-HTML-CSS/" target="_blank">Real Time Clock</a></p>
 
 ![image](https://github.com/user-attachments/assets/90c7e47b-b934-4d25-af41-ea07d855d95b)
 ---
